@@ -75,7 +75,7 @@
 					<deploymentType>standalone</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
 					<muleHome>${mule.home}</muleHome>
-					<applicationName>${project.artifactId}</applicationName>
+					<!-- <applicationName>${project.artifactId}</applicationName> -->
 				</configuration>
 				<executions>
 					<execution>
