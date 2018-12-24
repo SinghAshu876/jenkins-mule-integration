@@ -12,7 +12,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<muleHome>D:\mule-enterprise-standalone-3.9.1</muleHome>
+		<muleHome>${mule.home}</muleHome>
 		<mule.version>3.9.0</mule.version>
 		<mule.tools.version>1.7</mule.tools.version>
 	</properties>
@@ -74,8 +74,8 @@
 				<configuration>
 					<deploymentType>standalone</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<muleHome>D:\mule-enterprise-standalone-3.9.1</muleHome>
-					<!-- <applicationName>${project.artifactId}</applicationName> -->
+					<muleHome>${mule.home}</muleHome>
+					<applicationName>${project.artifactId}</applicationName>
 				</configuration>
 				<executions>
 					<execution>
