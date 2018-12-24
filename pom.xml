@@ -12,7 +12,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<muleHome>${mule.home}</muleHome>
+		<muleHome>D:\mule-enterprise-standalone-3.9.1</muleHome>
 		<mule.version>3.9.0</mule.version>
 		<mule.tools.version>1.7</mule.tools.version>
 	</properties>
