@@ -74,7 +74,7 @@
 				<configuration>
 					<deploymentType>standalone</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<muleHome>${mule.home}</muleHome>
+					<muleHome>D:\mule-enterprise-standalone-3.9.1</muleHome>
 					<!-- <applicationName>${project.artifactId}</applicationName> -->
 				</configuration>
 				<executions>
